@@ -1,0 +1,64 @@
+body {
+    font-family:Arial,Helvetica, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    margin: 0;
+    padding: 0;
+    background-color: #c2bfbf;
+   }
+header{
+    background-color: #aab9c9 ;
+    color: rgb(96, 78, 78);
+    text-align: center;
+    }
+    nav a{
+        color:rgb(188, 133, 86)
+        text-decoration: none;
+        margin: 0 10px;
+        font-weight: bold;
+     }
+     nav a:hover{
+        text-decoration: underline;
+     }
+
+     section{
+        width: 80%;
+        margin: 20px auto;
+        padding: 20px;
+        background-color:rgb(213, 193, 232);
+        box-shadow:0 0 10px white;
+     }
+     footer{
+        text-align: center; 
+        background-color: #aab9c9;
+      color:rgb(201, 16, 16);
+      padding: 10px;
+      margin-top: 20px;
+     }
+     img{
+        border-radius: 25px;
+    }
+    form{
+      background: #cef4f9;
+      padding: 15px;
+      border-radius: 5px;
+      color: rgb(107, 18, 113);
+    }
+    input[type="text"],input[type="email"]{  
+      width: 100%;
+      padding: 8px;
+      margin: 5px 0;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+   
+      }
+    
+input[type="submit"]{
+      background-color: #095156;
+      color:#cbd8e6;
+      padding: 8px;
+      border: none;
+      cursor:pointer;
+      border-radius: 50px;
+   }
+   #delBtn{
+      background-color: rgb(131, 100, 159);
+   }
